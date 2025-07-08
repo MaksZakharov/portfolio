@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Макс Захаров | Junior Python Developer</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
   <div class="sidebar">
-    <img src="avatar.png" alt="Аватар Макса">
-    <h1>Макс Захаров</h1>
-    <ul class="nav">
-      <li class="active"><i class="fas fa-user"></i><a href="index.html">Обо мне</a></li>
-      <li><i class="fas fa-rocket"></i><a href="career.html">Карьера</a></li>
-      <li><i class="fas fa-briefcase"></i><a href="portfolio.html">Портфолио</a></li>
-      <li><i class="fas fa-envelope"></i><a href="contacts.html">Контакты</a></li>
-    </ul>
+    <img src="avatar.png" alt="Аватар Макса" class="avatar" />
+    <h1 class="name">Макс Захаров</h1>
+    <nav class="menu">
+      <a href="#about" class="menu-item active"><span class="icon">👤</span> <span class="label">Обо мне</span></a>
+      <a href="#career" class="menu-item"><span class="icon">🚀</span> <span class="label">Карьера</span></a>
+      <a href="#portfolio" class="menu-item"><span class="icon">💼</span> <span class="label">Портфолио</span></a>
+      <a href="#contacts" class="menu-item"><span class="icon">✉️</span> <span class="label">Контакты</span></a>
+    </nav>
   </div>
 
-  <div class="main-content">
-    <section class="section">
+  <main class="content">
+    <section id="about" class="section">
       <h2>Обо мне</h2>
-      <p>Привет! Я Макс — <strong>Junior Python Developer</strong>. Учусь, создаю pet-проекты, осваиваю Django и автоматизацию. Люблю чистый код и структурированные интерфейсы.</p>
-      <a href="resume.pdf" class="resume-button" download><i class="fas fa-download"></i> Скачать резюме</a>
+      <p>
+        Меня зовут Макс. Я <strong>Junior Python Developer</strong>, изучаю Django и создаю pet-проекты. Люблю автоматизировать рутинные процессы и делиться знаниями.
+      </p>
+      <a href="resume.pdf" download class="btn-resume">📄 Скачать резюме</a>
     </section>
 
-    <footer>
-      © 2025 Макс Захаров. Сделано с <i class="fas fa-heart"></i> и Python.
+    <footer class="footer">
+      <p>
+        © 2025 Макс Захаров. Сделано с ❤️ и Python.
+      </p>
     </footer>
-  </div>
-</body>
+  </main>
 
+</body>
 </html>
