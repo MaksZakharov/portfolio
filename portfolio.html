@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио · Макс Захаров</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0f172a;--card:#1e293b;--accent:#38bdf8;--muted:#94a3b8;--text:#f1f5f9;}
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Inter',sans-serif;}
+    body{background:var(--bg);color:var(--text);padding:3rem 1rem;min-height:100vh;display:flex;flex-direction:column;align-items:center;}
+    h1{font-family:'Poppins',sans-serif;font-size:2.25rem;margin-bottom:1.5rem;color:var(--accent);} 
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;max-width:900px;width:100%;}
+    .card{background:var(--card);border-radius:12px;padding:1.25rem;display:flex;flex-direction:column;}
+    .card h3{color:var(--accent);margin-bottom:.5rem;}
+    .card p{color:var(--muted);font-size:.95rem;flex:1 1 auto;margin-bottom:1rem;}
+    .btn{display:inline-block;background:var(--accent);color:#fff;border-radius:8px;padding:.5rem 1rem;font-size:.9rem;text-decoration:none;text-align:center;}
+    .btn:hover{background:#0284c7;}
+    footer{margin-top:auto;color:var(--muted);padding-top:2rem;font-size:.9rem;}
+    a.back{color:var(--accent);text-decoration:none;margin-bottom:2rem;display:inline-block;}
+  </style>
+</head>
+<body>
+  <a class="back" href="index.html">← Назад</a>
+  <h1>Портфолио</h1>
+  <div class="grid">
+    <div class="card">
+      <h3>the_snake</h3>
+      <p>Классическая Змейка на Python + Pygame: коллизии, рост змейки, система очков.</p>
+      <a class="btn" href="https://github.com/MaksZakharov/the_snake" target="_blank">GitHub →</a>
+    </div>
+    <div class="card">
+      <h3>yatube-api</h3>
+      <p>REST API для социальной сети. Django, DRF, покрытие Pytest.</p>
+      <a class="btn" href="#" target="_blank">Скоро на GitHub</a>
+    </div>
+    <div class="card">
+      <h3>portfolio-site</h3>
+      <p>Личный сайт‑портфолио с адаптивным дизайном, HTML/CSS/JS.</p>
+      <a class="btn" href="#" target="_blank">Демо</a>
+    </div>
+  </div>
+  <footer>© 2025 Макс Захаров • Портфолио</footer>
+</body>
+</html>
