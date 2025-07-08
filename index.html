@@ -14,18 +14,21 @@
     *{box-sizing:border-box;margin:0;padding:0;font-family:'Inter',sans-serif;}
     body{background:var(--bg);color:var(--dark);line-height:1.6;}
     a{color:var(--accent);text-decoration:none;}
-    header{padding:4rem 1rem;text-align:center;}
-    header h1{font-size:2.5rem;margin-bottom:.5rem;}
-    header p{font-size:1.25rem;color:#475569;margin-bottom:1.5rem;}
-    .social a{margin:0 .5rem;font-size:1.5rem;}
+    header{padding:4rem 1rem;text-align:center;display:flex;flex-direction:column;align-items:center;gap:1rem;}
+    /* Автар */
+    .avatar{width:160px;height:160px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);}
+    header h1{font-size:2.5rem;margin-bottom:.25rem;}
+    header p{font-size:1.25rem;color:#475569;margin-bottom:1rem;}
+    .social a{margin:0 .5rem;font-size:1.25rem;}
     .container{max-width:960px;margin:0 auto;padding:0 1rem;}
     section.projects{padding:2rem 0;}
+    section.projects h2{font-size:1.75rem;margin-bottom:1.25rem;}
     .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;}
-    .project-card{background:#fff;border-radius:12px;box-shadow:0 2px 6px rgba(0,0,0,.06);padding:1.5rem;display:flex;flex-direction:column;justify-content:space-between;transition:transform .2s ease;}
+    .project-card{background:#fff;border-radius:12px;box-shadow:0 2px 6px rgba(0,0,0,.06);padding:1.5rem;display:flex;flex-direction:column;justify-content:space-between;transition:transform .2s ease;min-height:220px;}
     .project-card:hover{transform:translateY(-4px);}
     .project-card h3{margin-bottom:.5rem;font-size:1.25rem;}
     .project-card p{flex:1 1 auto;font-size:.95rem;margin-bottom:1rem;color:#334155;}
-    .btn{display:inline-block;padding:.5rem 1rem;background:var(--accent);color:#fff;border-radius:8px;font-size:.9rem;transition:background .2s ease;}
+    .btn{display:inline-block;padding:.5rem 1rem;background:var(--accent);color:#fff;border-radius:8px;font-size:.9rem;transition:background .2s ease;text-align:center;}
     .btn:hover{background:#3730a3;}
     footer{padding:2rem 0;text-align:center;font-size:.875rem;color:#64748b;}
   </style>
@@ -33,33 +36,48 @@
 <body>
 
 <header>
+  <!-- Поставь свой финальный аватар вместо placeholder -->
+  <img src="avatar-placeholder.png" alt="Аватар Макс Захаров" class="avatar">
   <h1>Макс Захаров</h1>
-  <p>Начинающий Python-разработчик · Учебные проекты и эксперименты</p>
+  <p>Начинающий Python‑разработчик · Учебные проекты и эксперименты</p>
   <div class="social">
     <a href="https://github.com/MaksZakharov" target="_blank">GitHub</a>
-    <!-- Добавь другие иконки/ссылки при желании -->
+    <!-- Добавь другие ссылки при необходимости -->
   </div>
 </header>
 
 <main class="container">
-  <section class="projects">
+  <section class="projects" id="projects">
     <h2>Проекты</h2>
     <div class="projects-grid">
-      <!-- Карточка проекта -->
+      <!-- ↓↓↓ Заглушка: продублируй карточку и измени данные, когда появятся новые проекты -->
       <div class="project-card">
         <div>
-          <h3><a href="https://github.com/MaksZakharov/the_snake" target="_blank">the_snake</a></h3>
-          <p>Классическая змейка на Python с использованием Pygame. Реализованы коллизии, рост змейки и система очков.</p>
+          <h3><a href="#" target="_blank">Project Title</a></h3>
+          <p>Краткое описание проекта. Расскажи, что делает приложение, какие технологии использованы.</p>
         </div>
-        <a class="btn" href="https://github.com/MaksZakharov/the_snake" target="_blank">Смотреть на GitHub</a>
+        <a class="btn" href="#" target="_blank">Скоро на GitHub</a>
       </div>
-      <!-- Чтобы добавить новые проекты, скопируй и вставь блок project-card выше -->
+      <div class="project-card">
+        <div>
+          <h3><a href="#" target="_blank">Project Title</a></h3>
+          <p>Краткое описание проекта. Расскажи, что делает приложение, какие технологии использованы.</p>
+        </div>
+        <a class="btn" href="#" target="_blank">Скоро на GitHub</a>
+      </div>
+      <div class="project-card">
+        <div>
+          <h3><a href="#" target="_blank">Project Title</a></h3>
+          <p>Краткое описание проекта. Расскажи, что делает приложение, какие технологии использованы.</p>
+        </div>
+        <a class="btn" href="#" target="_blank">Скоро на GitHub</a>
+      </div>
     </div>
   </section>
 </main>
 
 <footer>
-  © 2025 Макс Захаров. Сделано с ❤ и Python.
+  © 2025 Макс Захаров. Сделано с ❤ и Python.
 </footer>
 
 </body>
