@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Портфолио Макс Захаров</title>
+  <title>Макс Захаров · Junior Python Developer</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --bg: #0f172a;
@@ -28,186 +31,107 @@
       background: var(--bg);
       color: var(--text);
       display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      align-items: center;
     }
 
-    aside {
-      width: 250px;
-      background: var(--card-bg);
-      padding: 2rem 1rem;
+    /* ============= NAV ============= */
+    .nav {
+      margin-top: 1.5rem;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: fixed;
-      height: 100vh;
+      gap: 2.5rem;
+    }
+
+    .nav a {
+      font-size: 1.6rem;
+      color: #ffffff;
+      transition: color .2s ease, transform .2s ease;
+    }
+
+    .nav a:hover {
+      color: var(--accent);
+      transform: translateY(-3px);
+    }
+
+    /* ============= HERO / ABOUT ============= */
+    .about {
+      margin-top: 5rem;
+      text-align: center;
+      max-width: 680px;
     }
 
     .avatar {
-      width: 120px;
-      height: 120px;
+      width: 160px;
+      height: 160px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid var(--accent);
-      margin-bottom: 1rem;
+      border: 4px solid var(--accent);
+      margin: 0 auto 1.5rem;
     }
 
-    aside h1 {
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: .25rem;
+    }
+
+    h2 {
       font-size: 1.25rem;
-      text-align: center;
+      font-weight: 500;
+      color: var(--muted);
       margin-bottom: 1.5rem;
     }
 
-    nav a {
-      display: block;
-      margin: 0.5rem 0;
-      color: var(--text);
-      text-decoration: none;
-      font-size: 1rem;
-    }
-
-    nav a:hover {
-      color: var(--accent);
-    }
-
-    main {
-      margin-left: 250px;
-      padding: 2rem;
-      flex: 1;
-    }
-
-    section {
-      margin-bottom: 3rem;
-    }
-
-    section h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
-
-    section p {
-      max-width: 600px;
-      margin-bottom: 1rem;
+    .about p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 2rem;
     }
 
     .btn-download {
       display: inline-block;
-      padding: 0.5rem 1rem;
-      background: none;
+      padding: .6rem 1.4rem;
       border: 2px solid var(--accent);
       color: var(--accent);
-      border-radius: 8px;
+      border-radius: 10px;
       text-decoration: none;
-      transition: background 0.2s ease;
+      font-weight: 500;
+      transition: background .2s ease;
     }
 
     .btn-download:hover {
       background: var(--accent);
-      color: #fff;
-    }
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .project-card {
-      background: var(--card-bg);
-      border-radius: 12px;
-      padding: 1rem;
-    }
-
-    .project-card h3 {
-      color: var(--accent);
-      margin-bottom: 0.5rem;
-    }
-
-    .project-card p {
-      color: var(--muted);
-      font-size: 0.95rem;
-      margin-bottom: 1rem;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 0.5rem 1rem;
-      background: var(--accent);
-      color: #fff;
-      border-radius: 8px;
-      font-size: 0.9rem;
-      transition: background .2s ease;
-      text-align: center;
-      text-decoration: none;
-    }
-
-    .btn:hover {
-      background: var(--accent-hover);
+      color: #0f172a;
     }
 
     footer {
-      text-align: center;
-      font-size: 0.875rem;
+      margin-top: auto;
+      padding: 2rem 0 1rem;
+      font-size: .9rem;
       color: var(--muted);
-      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-
-<aside>
-  <img src="avatar.png" alt="Аватар Макс Захаров" class="avatar">
-  <h1>Макс Захаров</h1>
-  <nav>
-    <a href="#about">👤 Обо мне</a>
-    <a href="#career">🚀 Карьерный путь</a>
-    <a href="#portfolio">💼 Портфолио</a>
-    <a href="#contacts">✉️ Контакты</a>
+  <!-- Navigation Icons -->
+  <nav class="nav" aria-label="Site navigation">
+    <a href="index.html" title="Обо мне"><i class="fas fa-user"></i></a>
+    <a href="career.html" title="Карьерный путь"><i class="fas fa-rocket"></i></a>
+    <a href="portfolio.html" title="Портфолио"><i class="fas fa-briefcase"></i></a>
+    <a href="contacts.html" title="Контакты"><i class="fas fa-envelope"></i></a>
   </nav>
-</aside>
 
-<main>
-  <section id="about">
-    <h2>Обо мне</h2>
-    <p>Меня зовут Макс. Я <strong>Junior Python Developer</strong>, изучаю Django и создаю pet-проекты. Люблю автоматизировать рутинные процессы и делиться знаниями.</p>
-    <a class="btn-download" href="#" download><i class="fas fa-file-download"></i> Скачать резюме</a>
+  <!-- ABOUT BLOCK (center) -->
+  <section class="about" id="about">
+    <img src="avatar.png" alt="Макс Захаров" class="avatar">
+    <h1>Макс Захаров</h1>
+    <h2>Junior Python Developer</h2>
+    <p>Привет! Я увлечённый разработчик, который любит писать чистый код на Python, экспериментировать с Django и автоматизировать всё подряд. Стремлюсь к постоянному развитию и открыт интересным проектам.</p>
+    <a href="resume.pdf" class="btn-download" download><i class="fas fa-file-arrow-down"></i>  Скачать резюме</a>
   </section>
 
-  <section id="career">
-    <h2>Карьерный путь</h2>
-    <p>Здесь можно перечислить ключевые этапы: обучение в Яндекс Практикуме, pet-проекты, участие в хакатонах, практика на Stepik и Codewars, первые фриланс-заказы…</p>
-  </section>
-
-  <section id="portfolio">
-    <h2>Портфолио</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>Project Title</h3>
-        <p>Краткое описание проекта. Расскажи, что делает приложение, какие технологии использованы.</p>
-        <a class="btn" href="#" target="_blank">Скоро на GitHub</a>
-      </div>
-      <div class="project-card">
-        <h3>Project Title</h3>
-        <p>Краткое описание проекта. Расскажи, что делает приложение, какие технологии использованы.</p>
-        <a class="btn" href="#" target="_blank">Скоро на GitHub</a>
-      </div>
-      <div class="project-card">
-        <h3>Project Title</h3>
-        <p>Краткое описание проекта. Расскажи, что делает приложение, какие технологии использованы.</p>
-        <a class="btn" href="#" target="_blank">Скоро на GitHub</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="contacts">
-    <h2>Контакты</h2>
-    <p><i class="fab fa-github"></i> <a href="https://github.com/MaksZakharov" target="_blank">GitHub</a></p>
-    <p><i class="fab fa-telegram"></i> <a href="https://t.me/maks_zakharov" target="_blank">@maks_zakharov</a></p>
-    <p><i class="fas fa-envelope"></i> <a href="mailto:zaharovm1982@mail.ru">zaharovm1982@mail.ru</a></p>
-  </section>
-
-  <footer>
-    © 2025 Макс Захаров. Сделано с ❤ и Python.
-  </footer>
-</main>
-
+  <footer>© 2025 Макс Захаров. Сделано с ❤ и Python.</footer>
 </body>
 </html>
