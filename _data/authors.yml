@@ -4,6 +4,7 @@
 author1:
   name:              Макс Захаров
   email:             zaharovm1982@mail.ru
+  url:               ""
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
