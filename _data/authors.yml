@@ -10,8 +10,6 @@ author1:
   about:             |
     Я — начинающий Python-разработчик. Учусь, программирую и развиваюсь.
     Автоматизирую рутину и делаю первые шаги в IT.
-    
-    Open `_data/authors.yml` to edit this text.
 
   # This photo will be used in the about section
   picture:
