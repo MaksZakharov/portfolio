@@ -1,6 +1,4 @@
 ---
-layout: home
-title: "Добро пожаловать!"
+layout: redirect
+redirect_to: /about/
 ---
-
-Привет! Это моё портфолио, сделанное на Jekyll + Hydejack.
