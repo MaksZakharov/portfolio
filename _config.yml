@@ -50,13 +50,11 @@ author:
 menu:
   - title:             ОБО МНЕ
     url:               /about/
-  - title:             Documentation
-    url:               /docs/
-  - title:             Портфолио
+  - title:             ПОРТФОЛИО
     url:               /projects/
-  - title:             Карьерный путь
+  - title:             КАРЬЕРНЫЙ ПУТЬ
     url:               /career/
-  - title:             Контакты
+  - title:             КОНТАКТЫ
     url:               /contact/
 
 # Add links to the footer.
