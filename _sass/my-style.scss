@@ -36,8 +36,10 @@
 .card img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
-  margin-bottom: 1rem;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .card h3 {
