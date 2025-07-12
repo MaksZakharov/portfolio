@@ -25,4 +25,4 @@ Python 3, Pygame, ООП, стандартные библиотеки: `random`,
 
 ## Репозиторий на GitHub
 
-[![Перейти к проекту на GitHub](https://img.shields.io/badge/Открыть_на_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaksZakharov/the_snake)
+[![Перейти к проекту на GitHub](https://img.shields.io/badge/Открыть_проект_на_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaksZakharov/the_snake)
