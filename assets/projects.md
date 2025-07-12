@@ -16,9 +16,9 @@ permalink: /projects/
   </div>
 
   <div class="card">
-    <img src="{{ '/assets/img/personal-blog.png' | relative_url }}" alt="Personal Blog">
-    <h3>Personal Blog</h3>
-    <p>Блог, в котором я делюсь своим опытом. Построен на платформе Jekyll.</p>
+    <img src="{{ '/assets/img/fridge.png' | relative_url }}" alt="Fridge">
+    <h3>Fridge APP</h3>
+    <p>Приложение на Python для учёта продуктов и проверки сроков годности.</p>
   </div>
 
   <div class="card">
