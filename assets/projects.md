@@ -10,9 +10,9 @@ permalink: /projects/
 <div class="card-grid">
 
   <div class="card">
-    <img src="{{ '/assets/img/task-manager.png' | relative_url }}" alt="Task Manager">
-    <h3>Task Manager</h3>
-    <p>Веб-приложение для управления задачами. Реализовано при помощи Django.</p>
+    <img src="{{ '/assets/img/snake.png' | relative_url }}" alt="Snake">
+    <h3>Snake Game</h3>
+    <p>Классическая 2D-игра «Змейка», реализованная на Python с использованием Pygame. Ретро-стиль и неоновый дизайн.</p>
   </div>
 
   <div class="card">
