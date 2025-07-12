@@ -18,13 +18,13 @@ permalink: /projects/
   <div class="card">
     <img src="{{ '/assets/img/fridge.png' | relative_url }}" alt="Fridge">
     <h3>Fridge APP</h3>
-    <p>Приложение на Python для учёта продуктов и проверки сроков годности.</p>
+    <p>Приложение на Python для учёта продуктов и проверки сроков годности. Поддерживает добавление продуктов вручную.</p>
   </div>
 
   <div class="card">
-    <img src="{{ '/assets/img/portfolio-site.png' | relative_url }}" alt="Portfolio Website">
-    <h3>Portfolio Website</h3>
-    <p>Мой персональный сайт, подключённый к GitHub Pages. Сделан с Jekyll.</p>
+    <img src="{{ '/assets/img/blogicum.png' | relative_url }}" alt="Blogicum">
+    <h3>Blogicum</h3>
+    <p>Мини-блог на Django. Отображает записи, категории и статические страницы. Стартовый проект с шаблонами и маршрутизацией.</p>
   </div>
 
 </div>
