@@ -52,8 +52,8 @@ menu:
   #   url:               /about/
   - title:             ПОРТФОЛИО
     url:               /projects/
-  - title:             КАРЬЕРНЫЙ ПУТЬ
-    url:               /career/
+  # - title:             КАРЬЕРНЫЙ ПУТЬ
+  #   url:               /career/
   # - title:             КОНТАКТЫ
   #   url:               /contact/
 
