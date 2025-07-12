@@ -4,7 +4,14 @@ title: Карьерный путь
 permalink: /career/
 ---
 
-Python 3, GitHub, Git, Bash, переменные и типы данных, циклы и ветвления, функции, виртуальное окружение, основы ООП, алгоритмы и структуры данных, HTML, CSS, Django Web Framework, Bootstrap, Unittest, Pytest.
+## Технологии
+
+Python 3, Django, Pygame, SQLite, HTML, CSS, Bootstrap, GitHub, Git, Bash
+
+## Стек знаний
+
+Переменные и типы данных, условия, циклы, функции, виртуальное окружение, основы ООП, алгоритмы и структуры данных, модульное тестирование (Unittest, Pytest), шаблоны, маршрутизация, работа с файлами и датами.
+
 
 <div class="timeline-block">
 
