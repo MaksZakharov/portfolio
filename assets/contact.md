@@ -6,7 +6,7 @@ permalink: /contact/
 
 <ul class="icon-links" style="list-style: none; display: flex; gap: 2rem; justify-content: center; padding: 2rem 0;">
   <li>
-    <a href="mailto:zakharovm1982@mail.ru" class="icon-link" title="Email">
+    <a href="mailto:zaharovm1982@mail.ru" class="icon-link" title="Email">
       <i class="fas fa-envelope" style="font-size: 2rem;"></i>
     </a>
   </li>
