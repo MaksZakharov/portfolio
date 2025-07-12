@@ -7,7 +7,7 @@ permalink: /projects/
 ## Мои проекты.
 {:.no_toc}
 
-<div class="grid">
+<div class="card-grid">
 
   <div class="card">
     <img src="{{ '/assets/img/task-manager.png' | relative_url }}" alt="Task Manager">
