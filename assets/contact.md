@@ -2,6 +2,7 @@
 layout: page
 title: Контакты
 permalink: /contact/
+markdown: false
 ---
 
 <ul class="icon-links" style="list-style: none; display: flex; gap: 2rem; justify-content: center; padding: 2rem 0;">

@@ -4,7 +4,7 @@ title: Портфолио
 permalink: /projects/
 ---
 
-## Мои проекты.
+## МОИ ПРОЕКТЫ
 {:.no_toc}
 
 <div class="card-grid">
@@ -17,7 +17,7 @@ permalink: /projects/
 
   <div class="card">
     <img src="{{ '/assets/img/fridge.png' | relative_url }}" alt="Fridge">
-    <h3>Fridge APP</h3>
+    <h3>Fridge App</h3>
     <p>Приложение на Python для учёта продуктов и проверки сроков годности. Поддерживает добавление продуктов вручную.</p>
   </div>
 
