@@ -48,8 +48,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             ОБО МНЕ
-    url:               /about/
+  # - title:             ОБО МНЕ
+  #   url:               /about/
   - title:             ПОРТФОЛИО
     url:               /projects/
   - title:             КАРЬЕРНЫЙ ПУТЬ
