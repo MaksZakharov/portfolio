@@ -37,7 +37,8 @@ permalink: /projects/
     <div class="card">
       <img src="{{ '/assets/img/Vice Versa.png' | relative_url }}" alt="Vice Versa">
       <h3>Vice Versa</h3>
-      <p>Учебный проект: написание тестов unittest и pytest для проектов YaNote и YaNews.</p>
+      <p>Учебный проект по тестированию. Реализованы юнит-тесты с использованием
+      unittest и pytest для проектов YaNote и YaNews.</p>
     </div>
   </a>
 
@@ -53,7 +54,8 @@ permalink: /projects/
     <div class="card">
       <img src="{{ '/assets/img/CRUD for Yatube.png' | relative_url }}" alt="CRUD для Yatube">
       <h3>CRUD для Yatube</h3>
-      <p>Реализация API для всех моделей приложения социальной платформы Yatube.</p>
+      <p>Учебный сервис для работы с постами в социальной сети Yatube. Реализованы
+      операции создания, чтения, обновления и удаления записей.</p>
     </div>
   </a>
 
@@ -69,7 +71,7 @@ permalink: /projects/
     <div class="card">
       <img src="{{ '/assets/img/YaMDb.png' | relative_url }}" alt="YaMDb">
       <h3>YaMDb</h3>
-      <p>База отзывов на произведения: книги, фильмы, музыку. Пользователи могут оставлять отзывы и выставлять оценки.</p>
+      <p>База отзывов на произведения: книги, фильмы, музыку. Пользователи оставляют отзывы и оценки.</p>
     </div>
   </a>
 
@@ -77,7 +79,7 @@ permalink: /projects/
     <div class="card">
       <img src="{{ '/assets/img/Kittygram.png' | relative_url }}" alt="Kittygram Deploy">
       <h3>Kittygram Deploy</h3>
-      <p>Деплой проекта Kittygram на удалённый сервер с настройкой домена, SSL и системой хранения статики.</p>
+      <p>Деплой проекта Kittygram на удалённый сервер с настройкой домена, SSL-сертификата и системой хранения статики.</p>
     </div>
   </a>
 
@@ -85,7 +87,7 @@ permalink: /projects/
     <div class="card">
       <img src="{{ '/assets/img/CI CD for Kittygram.png' | relative_url }}" alt="CI/CD для Kittygram">
       <h3>CI/CD для Kittygram</h3>
-      <p>Непрерывная интеграция и доставка для Kittygram: GitHub Actions, тестирование, линтинг и автодеплой.</p>
+      <p>Непрерывная интеграция и доставка для Kittygram: GitHub Actions, тестирование, линтинг и автодеплой приложения.</p>
     </div>
   </a>
 
