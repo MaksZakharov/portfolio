@@ -54,7 +54,7 @@ permalink: /projects/
     <div class="card">
       <img src="{{ '/assets/img/CRUD for Yatube.png' | relative_url }}" alt="CRUD для Yatube">
       <h3>CRUD для Yatube</h3>
-      <p>Сервис для работы с постами в социальной сети Yatube. Реализованы
+      <p>Сервис для работы с постами в соцсети Yatube. Реализованы
       операции создания, чтения, обновления и удаления записей.</p>
     </div>
   </a>
