@@ -37,7 +37,7 @@ permalink: /projects/
     <div class="card">
       <img src="{{ '/assets/img/Vice Versa.png' | relative_url }}" alt="Vice Versa">
       <h3>Vice Versa</h3>
-      <p>Учебный проект по тестированию. Реализованы юнит-тесты с использованием
+      <p>Проект по тестированию. Реализованы юнит-тесты с использованием
       unittest и pytest для проектов YaNote и YaNews.</p>
     </div>
   </a>
@@ -54,7 +54,7 @@ permalink: /projects/
     <div class="card">
       <img src="{{ '/assets/img/CRUD for Yatube.png' | relative_url }}" alt="CRUD для Yatube">
       <h3>CRUD для Yatube</h3>
-      <p>Учебный сервис для работы с постами в социальной сети Yatube. Реализованы
+      <p>Сервис для работы с постами в социальной сети Yatube. Реализованы
       операции создания, чтения, обновления и удаления записей.</p>
     </div>
   </a>
