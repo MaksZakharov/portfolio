@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blogicum
-permalink: /projects/blogicum/
+title: kittygram-ci-cd
+permalink: /projects/kittygram-ci-cd/
 ---
 
 ![Blogicum]({{ '/assets/img/CI CD for Kittygram.png' | relative_url }})

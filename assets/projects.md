@@ -35,9 +35,9 @@ permalink: /projects/
 
   <a href="{{ '/projects/vice-versa/' | relative_url }}" class="card-link">
     <div class="card">
-      <img src="{{ '/assets/img/vice-versa.png' | relative_url }}" alt="Vice Versa">
+      <img src="{{ '/assets/img/Vice Versa.png' | relative_url }}" alt="Vice Versa">
       <h3>Vice Versa</h3>
-      <p>Учебный проект: система перевода и обмена сообщениями. Реализована работа с запросами и логикой перевода.</p>
+      <p>Учебный проект: написание тестов unittest и pytest для проектов YaNote и YaNews.</p>
     </div>
   </a>
 
@@ -45,21 +45,21 @@ permalink: /projects/
     <div class="card">
       <img src="{{ '/assets/img/bot-assistant.png' | relative_url }}" alt="Бот-ассистент">
       <h3>Бот-ассистент</h3>
-      <p>Телеграм-бот на Python для автоматизации задач. Поддерживает команды, обработку данных и хранение истории.</p>
+      <p>Телеграм-бот на Python для обращения к API сервиса Практикум Домашка и узнавания статуса домашней работы</p>
     </div>
   </a>
 
   <a href="{{ '/projects/crud-yatube/' | relative_url }}" class="card-link">
     <div class="card">
-      <img src="{{ '/assets/img/crud-yatube.png' | relative_url }}" alt="CRUD для Yatube">
+      <img src="{{ '/assets/img/CRUD for Yatube.png' | relative_url }}" alt="CRUD для Yatube">
       <h3>CRUD для Yatube</h3>
-      <p>Реализация операций создания, чтения, обновления и удаления постов для социальной платформы Yatube.</p>
+      <p>Реализация API для всех моделей приложения социальной платформы Yatube.</p>
     </div>
   </a>
 
   <a href="{{ '/projects/api-yatube/' | relative_url }}" class="card-link">
     <div class="card">
-      <img src="{{ '/assets/img/api-yatube.png' | relative_url }}" alt="API для Yatube">
+      <img src="{{ '/assets/img/API for Yatube.png' | relative_url }}" alt="API для Yatube">
       <h3>API для Yatube</h3>
       <p>REST API для Yatube на Django REST Framework. Реализованы эндпоинты для постов, комментариев и подписок.</p>
     </div>
@@ -67,7 +67,7 @@ permalink: /projects/
 
   <a href="{{ '/projects/yamdb/' | relative_url }}" class="card-link">
     <div class="card">
-      <img src="{{ '/assets/img/yamdb.png' | relative_url }}" alt="YaMDb">
+      <img src="{{ '/assets/img/YaMDb.png' | relative_url }}" alt="YaMDb">
       <h3>YaMDb</h3>
       <p>База отзывов на произведения: книги, фильмы, музыку. Пользователи могут оставлять отзывы и выставлять оценки.</p>
     </div>
@@ -75,7 +75,7 @@ permalink: /projects/
 
   <a href="{{ '/projects/kittygram-deploy/' | relative_url }}" class="card-link">
     <div class="card">
-      <img src="{{ '/assets/img/kittygram-deploy.png' | relative_url }}" alt="Kittygram Deploy">
+      <img src="{{ '/assets/img/Kittygram.png' | relative_url }}" alt="Kittygram Deploy">
       <h3>Kittygram Deploy</h3>
       <p>Деплой проекта Kittygram на удалённый сервер с настройкой домена, SSL и системой хранения статики.</p>
     </div>
@@ -83,7 +83,7 @@ permalink: /projects/
 
   <a href="{{ '/projects/kittygram-ci-cd/' | relative_url }}" class="card-link">
     <div class="card">
-      <img src="{{ '/assets/img/kittygram-ci-cd.png' | relative_url }}" alt="CI/CD для Kittygram">
+      <img src="{{ '/assets/img/CI CD for Kittygram.png' | relative_url }}" alt="CI/CD для Kittygram">
       <h3>CI/CD для Kittygram</h3>
       <p>Непрерывная интеграция и доставка для Kittygram: GitHub Actions, тестирование, линтинг и автодеплой.</p>
     </div>

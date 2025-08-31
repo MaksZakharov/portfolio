@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blogicum
-permalink: /projects/blogicum/
+title: yamdb
+permalink: /projects/yamdb/
 ---
 
 ![Blogicum]({{ '/assets/img/YaMDb.png' | relative_url }})
