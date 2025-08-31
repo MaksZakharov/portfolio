@@ -33,4 +33,61 @@ permalink: /projects/
     </div>
   </a>
 
+  <a href="{{ '/projects/vice-versa/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/vice-versa.png' | relative_url }}" alt="Vice Versa">
+      <h3>Vice Versa</h3>
+      <p>Учебный проект: система перевода и обмена сообщениями. Реализована работа с запросами и логикой перевода.</p>
+    </div>
+  </a>
+
+  <a href="{{ '/projects/bot-assistant/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/bot-assistant.png' | relative_url }}" alt="Бот-ассистент">
+      <h3>Бот-ассистент</h3>
+      <p>Телеграм-бот на Python для автоматизации задач. Поддерживает команды, обработку данных и хранение истории.</p>
+    </div>
+  </a>
+
+  <a href="{{ '/projects/crud-yatube/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/crud-yatube.png' | relative_url }}" alt="CRUD для Yatube">
+      <h3>CRUD для Yatube</h3>
+      <p>Реализация операций создания, чтения, обновления и удаления постов для социальной платформы Yatube.</p>
+    </div>
+  </a>
+
+  <a href="{{ '/projects/api-yatube/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/api-yatube.png' | relative_url }}" alt="API для Yatube">
+      <h3>API для Yatube</h3>
+      <p>REST API для Yatube на Django REST Framework. Реализованы эндпоинты для постов, комментариев и подписок.</p>
+    </div>
+  </a>
+
+  <a href="{{ '/projects/yamdb/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/yamdb.png' | relative_url }}" alt="YaMDb">
+      <h3>YaMDb</h3>
+      <p>База отзывов на произведения: книги, фильмы, музыку. Пользователи могут оставлять отзывы и выставлять оценки.</p>
+    </div>
+  </a>
+
+  <a href="{{ '/projects/kittygram-deploy/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/kittygram-deploy.png' | relative_url }}" alt="Kittygram Deploy">
+      <h3>Kittygram Deploy</h3>
+      <p>Деплой проекта Kittygram на удалённый сервер с настройкой домена, SSL и системой хранения статики.</p>
+    </div>
+  </a>
+
+  <a href="{{ '/projects/kittygram-ci-cd/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/kittygram-ci-cd.png' | relative_url }}" alt="CI/CD для Kittygram">
+      <h3>CI/CD для Kittygram</h3>
+      <p>Непрерывная интеграция и доставка для Kittygram: GitHub Actions, тестирование, линтинг и автодеплой.</p>
+    </div>
+  </a>
+
+
 </div>
