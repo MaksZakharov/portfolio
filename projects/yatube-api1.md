@@ -1,10 +1,10 @@
 ---
 layout: page
-title: api-yatube
-permalink: /projects/api-yatube/
+title: Yatube API
+permalink: /projects/yatube-api/
 ---
 
-![Blogicum]({{ '/assets/img/API for Yatube.png' | relative_url }})
+![Yatube API]({{ '/assets/img/yatube_api.png' | relative_url }})
 
 ## Описание
 
