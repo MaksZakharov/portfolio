@@ -91,5 +91,12 @@ permalink: /projects/
     </div>
   </a>
 
+<a href="{{ '/projects/foodgram' | relative_url }}" class="card-link">
+  <div class="card">
+    <img src="{{ '/assets/img/Foodgram.png' | relative_url }}" alt="Foodgram">
+    <h3>Foodgram — продуктовый помощник</h3>
+    <p>Онлайн-сервис для публикации и хранения рецептов. Пользователи могут делиться блюдами, сохранять рецепты и формировать список покупок.</p>
+  </div>
+</a>
 
 </div>
