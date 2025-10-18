@@ -45,7 +45,7 @@ permalink: /projects/foodgram/
 Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/MaksZakharov/foodgram-project-react.git
+git clone https://github.com/MaksZakharov/foodgram.git
 cd foodgram/infra
 ```
 
