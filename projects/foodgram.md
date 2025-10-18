@@ -133,9 +133,7 @@ GET /api/recipes/download_shopping_cart/
 
 **Maks Zakharov**
 
-🔗 [GitHub-репозиторий](https://github.com/MaksZakharov/foodgram-project-react)  
-🌐 [Демо-версия проекта](https://foodgram.3utilities.com)  
-📘 [Документация API](https://foodgram.3utilities.com/api/docs/)
+🔗 [GitHub-репозиторий](https://github.com/MaksZakharov/foodgram)
 
 ---
 
