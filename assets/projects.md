@@ -88,4 +88,13 @@ permalink: /projects/
   </div>
 </a>
 
+  <a href="{{ '/projects/yacut/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/YaCut.png' | relative_url }}" alt="YaCut">      
+      <p>Асинхронное Flask-приложение для сокращения ссылок и работы с файлами через API Яндекс.Диска. 
+      Реализованы веб-интерфейс, API и деплой через Docker и CI/CD.</p>
+    </div>
+  </a>
+
+
 </div>
