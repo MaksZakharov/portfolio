@@ -1,9 +1,8 @@
 ---
-
 layout: page
 title: yacut
 permalink: /projects/yacut/
----------------------------
+---
 
 ![YaCut]({{ '/assets/img/YaCut.png' | relative_url }})
 
