@@ -76,7 +76,7 @@ python main.py
 
 **Maks Zakharov**
 
-🔗 [GitHub-репозиторий]https://github.com/MaksZakharov/async_pep_parser
+🔗 [GitHub-репозиторий](https://github.com/MaksZakharov/async_pep_parser)
 
 ---
 
