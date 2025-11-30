@@ -94,4 +94,19 @@ permalink: /projects/
       <p>Асинхронное Flask-приложение для сокращения ссылок и работы с файлами через API Яндекс.Диска.</p>
     </div>
   </a>
+
+<a href="{{ '/projects/pep-parser/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/pep.png' | relative_url }}" alt="Парсер PEP">
+      <p>Парсер документации Python PEP. Собирает данные обо всех PEP, сравнивает статусы, формирует CSV-отчёты и выводит предупреждения о несоответствиях.</p>
+    </div>
+  </a>
+
+<a href="{{ '/projects/async-pep-parser/' | relative_url }}" class="card-link">
+    <div class="card">
+      <img src="{{ '/assets/img/async-pep.png' | relative_url }}" alt="Асинхронный парсер PEP">
+      <p>Асинхронный парсер PEP, реализованный на aiohttp. Высокая скорость обработки, параллельные запросы и формирование итоговых отчётов.</p>
+    </div>
+  </a>
+
 </div>
