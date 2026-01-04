@@ -109,4 +109,15 @@ permalink: /projects/
     </div>
   </a>
 
+<a href="{{ '/projects/qrkot/' | relative_url }}" class="card-link">
+  <div class="card">
+    <img src="{{ '/assets/img/qrkot.png' | relative_url }}" alt="QRKot">      
+    <p>
+      Асинхронный REST API благотворительного фонда на FastAPI.
+      Проекты, пожертвования, автоматическое распределение средств.
+      Версия v2: пользователи, JWT-аутентификация и роли.
+    </p>
+  </div>
+</a>
+
 </div>
